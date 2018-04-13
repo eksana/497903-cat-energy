@@ -30,7 +30,7 @@
     <hr>
   </header>
   <main class="page-main">
-    <h1>Подбор программы</h1>
+    <h1 class="form-section__title">Подбор программы</h1>
     <form class="choose-form" action="https://echo.htmlacademy.ru" method="post">
       <fieldset class="questionnaire">
         <legend>Заполните анкету и мы подберем программу питания для вашего кота</legend>
@@ -60,25 +60,24 @@
       <fieldset class="comment">
         <legend class="comment__description">Комментарий</legend>
         <textarea class="comment_text" name="comment">Расскажите обо всх повадках кота</textarea>
-        </filedset>
-        <fieldset class="additional">
-          <legend class="additional__description">Дополнительно</legend>
-          <input class="additional__input input" type="checkbox" name="sugarfree" id="sugar-free" checked>
-          <label class="additional__label label" for="sugar-free">Сахарозаменитель</label>
-          <input class="aadditional__input input" type="checkbox" name="water" id="water">
-          <label class="additional__label label" for="water">Питьевая вода</label>
-          <input class="additional__input input" type="checkbox" name="milk" id="milk">
-          <label class="additional__label label" for="milk">Молоко</label>
-          <input class="additional__input input" type="checkbox" name="vitamins" id="vitamins">
-          <label class="additional__label label" for="vitamins">Витамины</label>
-        </fieldset>
-        <button class="choose-form__button button">Отправить заявку</button>
-        <p class="choose-form__note">* - Обязательные поля</p>
+      </fieldset>
+      <fieldset class="form__catalog-set">
+        <h3 class="form__set-title">Дополнительно</h3>
+        <input class="form__checkbox" type="checkbox" id="form__sweetener" name="sweetener" checked>
+        <label class="form__label form__label--checkbox-checked" for="form__sweetener">Сахарозаменитель</label>
+        <input class="form__checkbox" type="checkbox" id="form__water" name="water">
+        <label class="form__label form__label--checkbox" for="form__water">Питьевая вода</label>
+        <input class="form__checkbox" type="checkbox" id="form__milk" name="milk">
+        <label class="form__label form__label--checkbox" for="form__milk">Молоко</label>
+        <input class="form__checkbox" type="checkbox" id="form__vitamins" name="vitamins">
+        <label class="form__label form__label--checkbox" for="form__vitamins">Витамины</label>
+      </fieldset>
+      <button class="choose-form__button button">Отправить заявку</button>
+      <p class="choose-form__note">* - Обязательные поля</p>
     </form>
     <section class="dealer">
       <p class="dealer__text">Приглашаем к сотрудничеству дилеров!</p>
-      <p class="dealer__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
-      </p>
+      <address class="dealer__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
       <p class="dealer__map">
         <img src="http://placehold.it/320x366" width="320" height="366" alt="Карта">
       </p>
