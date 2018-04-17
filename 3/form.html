@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Кэт энерджи: Подбор программы</title>
+  <link rel="stylesheet" href="css/style.css">
+  <base href="https://htmlacademy-adaptive.github.io/497903-cat-energy/3/">
+</head>
+
+<body>
+  <header class="page-header">
+    <a class="logo" href="index.html">
+      <img class="logo__image" src="http://placehold.it/35x41" height="35" width="41" alt="Кет энерджи">
+      <p class="logo__name common-title">Cat Energy</p>
+    </a>
+    <div class="main-nav">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <ul class="menu">
+        <li class="menu__item">
+          <a class="menu__link" href="index.html">Главная</a>
+        </li>
+        <li class="main__item">
+          <a class="menu__link" href="catalog.html">Каталог продукции</a>
+        </li>
+        <li class="main__item">
+          <a class="menu__link" href="#">Подбор программы</a>
+        </li>
+      </ul>
+    </div>
+    <hr>
+  </header>
+
+  <main class="page-main">
+
+    <h1 class="form-section__title">Подбор программы</h1>
+
+    <form class="choose-form" action="https://echo.htmlacademy.ru" method="post">
+
+      <fieldset class="choose-form__questionnaire">
+        <legend>Заполните анкету и мы подберем программу питания для вашего кота</legend>
+        <label class="questionnaire__label label" for="name">Имя:*</label>
+        <input class="questionnaire__input input" id="name" name="cat-name" type="text" placeholder="Барсик" required>
+        <label class="questionnaire__label label" for="weight">Вес (кг):*</label>
+        <input class="questionnaire__input input" id="weight" name="cat-weight" type="text" placeholder="7" required>
+        <label class="questionnaire__label label" for="age">Возраст (лет):</label>
+        <input class="questionnaire__input input" id="age" name="cat-age" type="text" placeholder="7">
+      </fieldset>
+
+      <fieldset class="choose-form__programm">
+        <legend class="visibly-hidden">Выбор программы</legend>
+        <label class="programm__label-like label-like">Похудение</label>
+        <input class="programm__input-like input-like" name="choice" value="slim" type="radio" checked>
+        <label class="programm__label-like label-like">Набор массы</label>
+        <input class="programm__input-like input-like" name="choice" value="mass" type="radio">
+        <label class="programm__label-like label-like">Не знаю (нужен ваш совет)</label>
+        <input class="programm__input-like input-like" name="choice" value="unknow" type="radio">
+      </fieldset>
+
+      <fieldset class="choose-form__contact">
+        <legend class="contact__legend-like contact">Контактные данные (владельца кота)</legend>
+        <label class="contact__email email" for="owner-email">E-mail:*</label>
+        <input class="contact__email email" type="email" name="email" id="owner-email" placeholder="kuklachev@gmail.com">
+        <label class="contact__tel telephone" for="owner-tel">Телефон:*</label>
+        <input class="contact__tel telephone" type="tel" id="owner-tel" name="tel" placeholder="8(906)900-60-90">
+      </fieldset>
+
+      <fieldset class="choose-form__comment">
+        <legend class="comment__description">Комментарий</legend>
+        <textarea class="comment_text" name="comment">Расскажите обо всх повадках кота</textarea>
+      </fieldset>
+
+      <fieldset class="choose-form__additional">
+        <h3 class="choose-form__title">Дополнительно</h3>
+        <input class="additional__chekbox-like addcheckbox" type="checkbox" id="form__sweetener" name="sweetener" checked>
+        <label class="additional__label-like addiabel" for="form__sweetener">Сахарозаменитель</label>
+        <input class="additional__chekbox-like addcheckbox" type="checkbox" id="form__water" name="water">
+        <label class="additional__label-like addiabel" for="form__water">Питьевая вода</label>
+        <input class="additional__chekbox-like addcheckbox" type="checkbox" id="form__milk" name="milk">
+        <label class="additional__label-like addiabel" for="form__milk">Молоко</label>
+        <input class="additional__chekbox-like addcheckbox" id="form__vitamins" name="vitamins">
+        <label class="additional__label-like addiabel" for="form__vitamins">Витамины</label>
+      </fieldset>
+
+      <button class="choose-form__button button">Отправить заявку</button>
+      <p class="choose-form__note">* - Обязательные поля</p>
+    </form>
+
+    <section class="dealer">
+      <p class="dealer__text">Приглашаем к сотрудничеству дилеров!</p>
+      <address class="dealer__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+      <p class="dealer__map">
+        <img src="http://placehold.it/320x366" width="320" height="366" alt="Карта">
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="page-footer">
+    <a class="logo" href="index.html">Cat Energy</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link social-list__link--vk" href="#">
+          Мы Вконтакте
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link social-list__link--instagram" href="#">
+          Наш Инстаграм
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link social-list__link--fb" href="#">
+          Мы в Facebook
+        </a>
+      </li>
+    </ul>
+    <div class="copyright">
+      <a href="https://htmlacademy.ru" class="academy">
+        <img class="academy__image" src="http://placehold.it/28x35" alt="HTML Academy" width="28" height="35"> HTML Academy
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
