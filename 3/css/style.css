@@ -1,0 +1,132 @@
+/*...*/
+/*...*/
+/*...*/
+/*...*/
+@font-face {
+  font-family: "Oswald";
+  src: local("Oswald Medium"), local("Oswaldmedium"), url("../fonts/oswaldmedium.woff2") format("woff2"), url("../fonts/oswaldmedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oswald";
+  src: local("Oswald Regular"), local("Oswaldregular"), url("../fonts/oswaldregular.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+/*...*/
+.academy {
+  margin: 0;
+}
+/*...*/
+.achievments-list {
+  margin: 0;
+}
+/*...*/
+.add-products {
+  margin: 0;
+}
+/*...*/
+.additional {
+  margin: 0;
+}
+/*...*/
+.catalog {
+  margin: 0;
+}
+/*...*/
+.choose-form {
+  margin: 0;
+}
+/*...*/
+.comment {
+  margin: 0;
+}
+/*...*/
+.contact {
+  margin: 0;
+}
+/*...*/
+.copyright {
+  margin: 0;
+}
+/*...*/
+.dealer {
+  margin: 0;
+}
+/*...*/
+.example {
+  margin: 0;
+}
+/*...*/
+.form-section {
+  margin: 0;
+}
+/*...*/
+.gift {
+  margin: 0;
+}
+/*...*/
+.how-it-work {
+  margin: 0;
+}
+/*...*/
+.logo {
+  margin: 0;
+}
+/*...*/
+.main-nav {
+  margin: 0;
+}
+/*...*/
+.main {
+  margin: 0;
+}
+/*...*/
+.menu {
+  margin: 0;
+}
+/*...*/
+.more-products {
+  margin: 0;
+}
+/*...*/
+.page-footer {
+  margin: 0;
+}
+/*...*/
+.page-header {
+  margin: 0;
+}
+/*...*/
+.page-main {
+  margin: 0;
+}
+/*...*/
+.product-info {
+  margin: 0;
+}
+/*...*/
+.product {
+  margin: 0;
+}
+/*...*/
+.program {
+  margin: 0;
+}
+/*...*/
+.programm {
+  margin: 0;
+}
+/*...*/
+.questionnaire {
+  margin: 0;
+}
+/*...*/
+.social-list {
+  margin: 0;
+}
+/*...*/
+.visually-hidden {
+  margin: 0;
+}
