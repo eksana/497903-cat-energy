@@ -1,18 +1,38 @@
 /*...*/
 /*...*/
 /*...*/
-/*...*/
 @font-face {
-  font-family: "Oswald";
-  src: local("Oswald Medium"), local("Oswaldmedium"), url("../fonts/oswaldmedium.woff2") format("woff2"), url("../fonts/oswaldmedium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
+  font-weight: normal;
+  font-family: "oswaldregular";
+  src: url("/fonts/oswaldregular.woff2") format("woff2");
+  src: url("/fonts/oswaldregular.woff") format("woff");
 }
 @font-face {
-  font-family: "Oswald";
-  src: local("Oswald Regular"), local("Oswaldregular"), url("../fonts/oswaldregular.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
+  font-weight: bold;
+  font-family: "oswaldmedium";
+  src: url("/fonts/oswaldmedium.woff") format("woff");
+  src: url("/fonts/oswaldmedium.woff2") format("woff2");
+}
+html {
+  line-height: 1.15;
+}
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "oswaldregular", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  width: 320px;
+  margin: auto;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 /*...*/
 .academy {
@@ -29,6 +49,21 @@
 /*...*/
 .additional {
   margin: 0;
+}
+.button {
+  display: inline-block;
+  margin: auto;
+  padding: 11px 10px;
+  width: 260px;
+  font-family: "oswaldregular", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  background-color: #68b738;
 }
 /*...*/
 .catalog {
@@ -84,7 +119,22 @@
 }
 /*...*/
 .menu {
+  display: block;
   margin: 0;
+  line-height: 20px;
+}
+.menu__link {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #111111;
+  font-family: "oswaldregular", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.menu__item {
+  display: block;
+  padding-top: 24px;
 }
 /*...*/
 .more-products {
@@ -102,6 +152,14 @@
 .page-main {
   margin: 0;
 }
+.page-main__title {
+  padding: 29px 40px;
+  margin: 0;
+  font-family: "oswaldregular", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 36px;
+}
 /*...*/
 .product-info {
   margin: 0;
@@ -117,6 +175,20 @@
 /*...*/
 .programm {
   margin: 0;
+}
+.promo {
+  padding-top: 20px;
+}
+.promo__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url("/img/index-background-mobile@1x.jpg") no-repeat;
+  color: #ffffff;
 }
 /*...*/
 .questionnaire {
