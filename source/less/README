@@ -9,3 +9,34 @@ http://lesscss.org
 less/
 | - style.less
 | - [другие *.less файлы]
+| - "mixins.less";
+| - "variables.less";
+| - "blocks/academy.less";
+| - "blocks/achievments-list.less";
+| - "blocks/add-products.less";
+| - "blocks/additional.less";
+| - "blocks/catalog.less";
+| - "blocks/choose-form.less";
+| - "blocks/comment.less";
+| - "blocks/contact.less";
+| - "blocks/copyright.less";
+| - "blocks/dealer.less";
+| - "blocks/example.less";
+| - "blocks/form-section.less";
+| - "blocks/gift.less";
+| - "blocks/how-it-works.less";
+| - "blocks/logo.less";
+| - "blocks/main-nav.less";
+| - "blocks/main.less";
+| - "blocks/menu.less";
+| - "blocks/more-products.less";
+| - "blocks/page-footer.less";
+| - "blocks/page-header.less";
+| - "blocks/page-main.less";
+| - "blocks/product-info.less";
+| - "blocks/product.less";
+| - "blocks/program.less";
+| - "blocks/programm.less";
+| - "blocks/questionnaire.less";
+| - "blocks/social-list.less";
+| - "blocks/visually-hidden.less";
